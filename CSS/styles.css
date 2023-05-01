@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: white;
+  font-family:sans-serif;
+  margin-top: 7%;
+}
+
+nav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: rgb(137, 242, 244);
+  border: 2px solid green;
+}
+
+nav img{
+  width: 15%;
+  float: left;
+  margin: 10px 0px;
+}
+
+nav .name{
+  color: rgb(219, 52, 228);
+  text-align: center;
+}
+
+nav ul{
+  margin-left: 20%;
+}
+
+nav ul li{
+  display: inline-block;
+  width: 175px;
+  border: 4px solid rgb(215, 0, 165);
+  line-height: 2em;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Lucida Handwriting', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-shadow: 3px 4px 7px #888888;
+}
+
+.mainc{
+  max-width: 1440px;
+  padding: 2em 3em;
+  overflow: auto;
+  box-shadow: 10px 10px 5px #888888;
+  background: rgb(118, 250, 133);
+}
+
+.mainc aside, .mainc main{
+  float: left;
+}
+
+aside{
+  width: 35%;
+}
+
+aside section{
+  background-color: #00e1ff;
+  box-shadow: 3px 4px 7px #888888;
+  padding: 10px;
+  margin: 35px 25px 25px 0;
+}
+
+.hero{
+  width: 100%;
+}
+
+main article{
+  width: 100%;
+  box-shadow: 3px 4px 7px #888888;
+
+}
+
+.imagegroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagegroup div{
+  width: 30%;
+}
+
+.imagegroup div img {
+  width: 100%;
+}
+
+.sidebar {
+  background-color: #00e1ff;
+  box-shadow: 3px 4px 7px #888888;
+  padding: 10px;
+  margin: 35px 25px 25px 0;
+  width: 12%;
+  float: right;
+}
